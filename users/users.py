@@ -4,9 +4,9 @@ from botocore.exceptions import ClientError
 from boto3.dynamodb.conditions import Key
 import json
 import uuid
-#import ptvsd
-#ptvsd.enable_attach(address=('0.0.0.0', 5858), redirect_output=True)
-#ptvsd.wait_for_attach()
+import ptvsd
+ptvsd.enable_attach(address=('0.0.0.0', 5858), redirect_output=True)
+ptvsd.wait_for_attach()
 
 class NoTableName(Exception):
     pass

@@ -29,7 +29,7 @@ python bootstrap_dynamodb.py -t "users" --hash-key "id"
 
 ```bash
 make build-dev SERVICE="users"
-sam local start-api --docker-network sam-demo
+sam local start-api --docker-network sam-demo -d 5858
 ```
 
 4) **Test API locally**
