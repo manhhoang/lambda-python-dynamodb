@@ -1,0 +1,8 @@
+boto3==1.4.7
+botocore==1.7.40
+docutils==0.14
+jmespath==0.9.3
+python-dateutil==2.6.1
+s3transfer==0.1.11
+requests==2.18.4
+ptvsd==4.1.4
